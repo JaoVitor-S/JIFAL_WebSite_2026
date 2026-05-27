@@ -5,7 +5,7 @@ Este repositório contém o desenvolvimento do site oficial dos **JIFAL 2026** (
 ## 🎯 Objetivo
 Criar um site responsivo, limpo e visualmente agradável utilizando HTML5, CSS3 modularizado e Flexbox, com foco na apresentação clara das informações dos Jogos Internos do IFAL. O site demonstra domínio sobre estruturação semântica, estilização, organização de código e responsividade.
 
-## 👨‍👩‍👧‍👦 Integrantes do Grupo
+## Integrantes do Grupo
 * **João Vitor**
 * **Davi Pietro**
 * **Weverton Vinícius**
