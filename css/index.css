@@ -1,0 +1,36 @@
+.banner-destaque {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 6px solid var(--green-dark, #064013); /* Padronizado com o verde escuro */
+}
+.banner-destaque img {
+    width: 100%;
+    height: auto;
+    max-height: 50vh;
+    object-fit: cover;
+    border-radius: 0;
+    display: block;
+}
+.banner-destaque .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.banner-destaque h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}

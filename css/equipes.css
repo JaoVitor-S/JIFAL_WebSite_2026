@@ -1,0 +1,38 @@
+   /* Card padrão mantendo o layout original com Flexbox */
+        .equipe-card { 
+            text-align: center; 
+            border-top: 6px solid var(--cor-turma, #0d6b24); /* Borda superior colorida */
+            align-items: center; 
+            justify-content: center; 
+            padding: 20px; 
+        }
+
+        /* Estilização das novas imagens dos símbolos */
+        .equipe-simbolo {
+            max-width: 100px;  
+            max-height: 80px;  
+            width: auto;       
+            height: auto;      
+            margin-bottom: 15px; 
+            display: block;    
+        }
+
+        .equipe-card h3 { 
+            font-size: 24px; 
+            color: var(--text-dark, #333); 
+            margin: 0;
+        }
+
+        /* Cores exatas de cada turma para a borda superior */
+        .t-411 { --cor-turma: #1f441e; } /* Verde escuro */
+        .t-412 { --cor-turma: #741b47; } /* Vinho */
+        .t-413 { --cor-turma: #ecc94b; } /* Amarelo */
+        .t-422 { --cor-turma: #f687b3; } /* Rosa */
+        .t-423 { --cor-turma: #718096; } /* Cinza */
+        .t-521 { --cor-turma: #1a202c; } /* Preto */
+        .t-911 { --cor-turma: #805ad5; } /* Roxo */
+        .t-912 { --cor-turma: #48bb78; } /* Verde claro */
+        .t-913 { --cor-turma: #a0aec0; } /* Cinza claro */
+        .t-921 { --cor-turma: #e53e3e; } /* Vermelho */
+        .t-922 { --cor-turma: #63b3ed; } /* Azul claro */
+        .t-923 { --cor-turma: #2b6cb0; } /* Azul escuro */

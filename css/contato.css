@@ -1,0 +1,67 @@
+.contato-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 40px 20px;
+}
+.contato-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 550px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    border-top: 6px solid var(--green-main, #0d6b24);
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.form-group label {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-dark, #333);
+    margin-bottom: 8px;
+}
+.form-group input, 
+.form-group select, 
+.form-group textarea {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    padding: 12px;
+    border: 1px solid #cbd5e0;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+.form-group input:focus, 
+.form-group select:focus, 
+.form-group textarea:focus {
+    border-color: var(--green-main, #0d6b24);
+}
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+.btn-enviar {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: var(--green-main, #0d6b24);
+    color: #ffffff;
+    padding: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.btn-enviar:hover {
+    background-color: var(--green-dark, #064013);
+}

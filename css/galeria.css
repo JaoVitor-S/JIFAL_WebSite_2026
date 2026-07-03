@@ -1,0 +1,45 @@
+        /* Card da foto seguindo o padrão das equipes */
+        .galeria-card { 
+            text-align: center; 
+            border-top: 6px solid var(--cor-turma, #0d6b24); 
+            background-color: #ffffff;
+            padding: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+            border-radius: 4px;
+            transition: transform 0.3s ease;
+        }
+
+        .galeria-card:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Imagens uniformes */
+        .galeria-foto {
+            width: 100%;
+            height: 220px;      
+            object-fit: cover;  
+            border-radius: 4px;
+            margin-bottom: 12px;
+            display: block;
+        }
+
+        .galeria-card h3 { 
+            font-size: 22px; 
+            color: var(--text-dark, #333); 
+            margin: 0;
+            font-weight: 700;
+        }
+
+        /* Cores de cada turma */
+        .t-411 { --cor-turma: #1f441e; }
+        .t-412 { --cor-turma: #741b47; }
+        .t-413 { --cor-turma: #ecc94b; }
+        .t-422 { --cor-turma: #f687b3; }
+        .t-423 { --cor-turma: #718096; }
+        .t-521 { --cor-turma: #1a202c; }
+        .t-911 { --cor-turma: #805ad5; }
+        .t-912 { --cor-turma: #48bb78; }
+        .t-913 { --cor-turma: #a0aec0; }
+        .t-921 { --cor-turma: #e53e3e; }
+        .t-922 { --cor-turma: #63b3ed; }
+        .t-923 { --cor-turma: #2b6cb0; }

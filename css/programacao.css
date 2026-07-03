@@ -1,0 +1,74 @@
+.cronograma-container {
+    width: 100%;
+            max-width: 1100px;
+            overflow-x: auto; 
+            margin-top: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            background-color: white;
+            margin-bottom: 30px;
+        }
+
+        .tabela-jifal {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 900px; 
+            text-align: left;
+        }
+
+        .tabela-jifal th {
+            background-color: var(--green-main, #0d6b24); 
+            color: whitesmoke;
+            font-weight: 700;
+            padding: 16px;
+            text-transform: uppercase;
+            font-size: 13px;
+            letter-spacing: 0.5px;
+            border-bottom: 4px solid var(--green-dark, #064013);
+        }
+
+        .tabela-jifal td {
+            padding: 16px;
+            border-bottom: 1px solid #eeeeee;
+            font-size: 15px;
+            color: #333333;
+            vertical-align: middle;
+        }
+
+        .col-horario {
+            font-weight: 700;
+            color: var(--green-main, #0d6b24);
+            background-color: #fafd96; 
+            text-align: center;
+            width: 100px;
+        }
+
+        .confronto-times {
+            font-weight: 600;
+            font-size: 16px;
+        }
+
+        .vs-tag {
+            color: #e53e3e;
+            font-weight: 800;
+            margin: 0 6px;
+        }
+
+        .linha-dia {
+            background-color: var(--green-dark, #064013) !important;
+            color: white !important;
+            font-weight: 700;
+            text-align: center;
+            font-size: 16px;
+            letter-spacing: 1px;
+        }
+        
+        .badge-local {
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 700;
+            color: white;
+        }
+        .bg-quadra { background-color: #2b6cb0; }
+        .bg-patio { background-color: #dd6b20; }
